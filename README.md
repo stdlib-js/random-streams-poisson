@@ -20,7 +20,7 @@ limitations under the License.
 
 # Poisson Random Numbers
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create a [readable stream][readable-stream] for generating pseudorandom numbers drawn from a [Poisson][poisson] distribution.
 
@@ -551,8 +551,8 @@ $ random-poisson 1.0 -n 10 --seed 1234
 
 ## See Also
 
--   [`@stdlib/random/base/poisson`][@stdlib/random/base/poisson]: Poisson distributed random numbers.
--   [`@stdlib/random/iter/poisson`][@stdlib/random/iter/poisson]: create an iterator for generating pseudorandom numbers drawn from a Poisson distribution.
+-   <span class="package-name">[`@stdlib/random/base/poisson`][@stdlib/random/base/poisson]</span><span class="delimiter">: </span><span class="description">Poisson distributed random numbers.</span>
+-   <span class="package-name">[`@stdlib/random/iter/poisson`][@stdlib/random/iter/poisson]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a Poisson distribution.</span>
 
 </section>
 
@@ -603,8 +603,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-streams-poisson/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-streams-poisson?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/random-streams-poisson.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/random-streams-poisson/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
